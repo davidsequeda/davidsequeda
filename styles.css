@@ -45,26 +45,29 @@ ul {
 }
 
 li {
-    margin-bottom: 18px;
-    font-size: 16px;
+    margin-bottom: 20px; /* Un pelín más de espacio entre ensayos */
+    font-size: 17px;     /* Tamaño ideal para títulos de artículos */
 }
 
 a {
-    color: #000000;
-    text-decoration: underline;
-    text-underline-offset: 3px; 
+    color: #111111;
+    text-decoration: none; /* Quitamos el subrayado duro por defecto */
 }
 
 a:hover {
-    color: #0066cc; /* Un azul sutil al pasar el cursor le da toque web clásico */
+    color: #000000;
+    text-decoration: underline; /* El subrayado solo aparece al interactuar */
+    text-underline-offset: 4px;
+    text-decoration-thickness: 1px;
 }
 
 .date {
-    color: #999999;
+    color: #888888; /* Un gris un poco más suave para que el título sea el protagonista */
     font-size: 14px;
-    margin-left: 10px;
+    margin-left: 12px;
     white-space: nowrap;
 }
+
 
 .back-link {
     display: inline-block;
