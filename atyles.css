@@ -1,0 +1,26 @@
+body {
+    font-family: verdana, arial, helvetica, sans-serif;
+    line-height: 1.5;
+    color: #000;
+    background-color: #fff;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 650px; /* Esto crea la columna única estrecha */
+    margin: 0 auto;   /* Esto centra la columna en la pantalla */
+}
+
+h1, h2, h3 {
+    font-family: inherit;
+}
+
+a {
+    color: #0000ee;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
