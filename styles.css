@@ -2,61 +2,79 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     background-color: #ffffff;
     color: #222222;
-    line-height: 1.6;
+    line-height: 1.65; /* Un poco más de aire para la lectura */
     margin: 0;
-    padding: 40px 20px;
+    padding: 60px 20px; /* Más espacio arriba */
 }
 
 .container {
-    max-width: 600px; /* El ancho de columna perfecto de Sam Altman */
-    margin: 0 auto;   /* Esto centra todo el bloque en la pantalla */
+    max-width: 600px; /* El ancho perfecto */
+    margin: 0 auto;   
 }
 
 h1 {
-    font-size: 24px;
+    font-size: 26px;
     font-weight: 700;
     color: #111111;
     margin-top: 0;
-    margin-bottom: 24px;
+    margin-bottom: 20px;
+    line-height: 1.3;
 }
 
 p {
     font-size: 16px;
-    margin-bottom: 20px;
+    margin-bottom: 24px;
     color: #333333;
 }
 
+.subtitle {
+    color: #666666;
+    font-size: 17px;
+}
+
+.separator {
+    border: 0;
+    border-top: 1px solid #eeeeee;
+    margin: 30px 0;
+}
+
 ul {
-    list-style-type: none; /* Quita los puntitos anticuados */
+    list-style-type: none; 
     padding: 0;
     margin: 0;
 }
 
 li {
-    margin-bottom: 16px;
+    margin-bottom: 18px;
     font-size: 16px;
 }
 
 a {
     color: #000000;
     text-decoration: underline;
-    text-underline-offset: 4px; /* Separa la línea del texto elegantemente */
+    text-underline-offset: 3px; 
 }
 
 a:hover {
-    color: #666666;
+    color: #0066cc; /* Un azul sutil al pasar el cursor le da toque web clásico */
 }
 
 .date {
     color: #999999;
     font-size: 14px;
-    margin-left: 8px;
+    margin-left: 10px;
+    white-space: nowrap;
 }
 
 .back-link {
-    display: block;
+    display: inline-block;
     font-size: 14px;
     margin-bottom: 40px;
     color: #666666;
     text-decoration: none;
+}
+
+.back-link:hover {
+    color: #000000;
+    text-decoration: underline;
 }
